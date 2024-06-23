@@ -90,7 +90,7 @@ const Home = () => {
             className="text-center text-white rubik-medium"
             style={{ fontWeight: "bold" }}
           >
-            OUR CULTURE
+            OUR CULTURE hello
           </p>
           <h1 className="text-center text-white">
             For entrepreneurs, by entrepreneurs.
