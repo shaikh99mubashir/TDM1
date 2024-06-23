@@ -1,0 +1,86 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'); /* Import Font Awesome */
+
+/* Footer background */
+.footer-bg {
+    background-color: #232323;
+    padding: 20px 0; /* Add padding for better spacing */
+}
+
+/* General list styles */
+.arrow-list,
+.icon-list,
+.news-list {
+    list-style-type: none;
+    padding-left: 0;
+    color: #FFFFFF;
+}
+
+/* List items for arrow-list */
+.arrow-list li {
+    position: relative;
+    padding-left: 30px; /* Space for the icons */
+    font-size: 16px;
+    font-family: 'Rubik Regular', sans-serif;
+    color: #f5f5f5;
+    margin-bottom: 10px; /* Add margin between list items */
+}
+
+.arrow-list li::before {
+    content: '\2192'; /* Right arrow icon */
+    position: absolute;
+    left: 0;
+    color: #f5f5f5;
+    font-size: 16px;
+}
+
+/* List items for icon-list */
+.icon-list li {
+    position: relative;
+    padding-left: 30px; /* Space for the icons */
+    font-size: 16px;
+    font-family: 'Rubik Regular', sans-serif;
+    color: #f5f5f5;
+    margin-bottom: 10px; /* Add margin between list items */
+}
+
+.icon-list li::before {
+    position: absolute;
+    left: 0;
+    color: #f5f5f5;
+    font-size: 16px;
+    font-family: 'Font Awesome 5 Free'; /* Font Awesome family */
+    font-weight: 900; /* Font Awesome weight */
+}
+
+/* Specific icons for each list item */
+.icon-map::before {
+    content: '\f5a0'; /* Map icon */
+}
+
+.icon-email::before {
+    content: '\f0e0'; /* Envelope icon */
+}
+
+.icon-contact::before {
+    content: '\f095'; /* Phone icon */
+}
+
+/* Styles for news-list */
+.news-list li {
+    margin-bottom: 10px;
+}
+
+.news-list li i {
+    margin-right: 8px; /* Spacing between icon and text */
+}
+
+.news-list span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #b0b0b0;
+}
+
+.news-list span i {
+    margin-right: 5px; /* Spacing between calendar icon and date */
+}

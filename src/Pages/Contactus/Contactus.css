@@ -1,0 +1,47 @@
+/* 
+  .contactForm{
+    padding: 20px;
+    border-radius: 16px;
+    width: 45%;
+    background: white;
+  } */
+
+  .contactForm {
+    padding: 20px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 600px;
+    background: white;
+  }
+  
+  /* .bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  } */
+  .gap-10 {
+    gap: 0px;
+  }
+  @media (max-width: 768px) {
+    .contactForm {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contactForm {
+      width: 100%;
+      padding: 15px;
+    }
+  }
+
+@media (min-width: 766px) {
+  .gap-10 {
+    gap: 10px;
+  }
+}
+  
+
+  

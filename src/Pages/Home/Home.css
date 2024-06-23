@@ -1,0 +1,50 @@
+.bannerbg{
+    background-image: url('../../Images/Section2Home.png') ;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.blurred-background {
+    backdrop-filter: blur(11px);
+    top: -5px;
+    position: relative;
+    padding: 20px;
+}
+
+.blurred-background-logoSlider {
+    backdrop-filter: blur(17px);
+    top: -5px;
+    position: relative;
+    padding: 20px;
+    background-color: '#E7E7FF';
+    
+}
+
+.gridContainer {
+    flex-direction: "column";
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .cardBg {
+    background-image: linear-gradient(28.8deg, #D6D6D6, #272449);
+
+  }
+
+  .cardData {
+    display: block;
+  }
+  
+  .hover-text {
+    display: none;
+  }
+  
+  .card:hover .hover-text {
+    display: block;
+  }
+  .card:hover .cardData {
+    display: none;
+  }
